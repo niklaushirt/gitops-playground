@@ -8,6 +8,6 @@ spec:
   clusterReplicas: 1
   clusterSelector:
     matchLabels:
-      region: US
+      region: EU
   resourceHint:
     type: cpu
