@@ -1,7 +1,7 @@
 apiVersion: mcm.ibm.com/v1alpha1
 kind: PlacementPolicy
 metadata:
-  name: demoliberty
+  name: pp-demoliberty
   labels:
     app: demoliberty
 spec:
@@ -9,6 +9,5 @@ spec:
   clusterSelector:
     matchLabels:
       region: EU
-      environment: Dev
   resourceHint:
     type: cpu

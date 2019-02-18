@@ -1,7 +1,7 @@
 apiVersion: mcm.ibm.com/v1alpha1
 kind: Deployable
 metadata:
-  name: demoliberty
+  name: dp-demoliberty
   labels:
     app: demoliberty
 spec:

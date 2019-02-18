@@ -1,13 +1,13 @@
 apiVersion: mcm.ibm.com/v1alpha1
 kind: PlacementBinding
 metadata:
-  name: demoliberty
+  name: pb-demoliberty
   labels:
     app: demoliberty
 placementRef:
   apiGroup: mcm.ibm.com
   kind: PlacementPolicy
-  name: demoliberty
+  name: pp-demoliberty
 subjects:
 - apiGroup: mcm.ibm.com
   kind: Deployable
