@@ -1,16 +1,15 @@
 apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
-  name: nginx
+  name: demoliberty
   labels:
-    app: nginx
+    app: demoliberty
 spec:
   selector:
     matchLabels:
-      app: ibm-nginx-dev
+      app: demoliberty
   componentKinds:
   - group: core
     kind: Service
   - group: apps
     kind: Deployment
-    

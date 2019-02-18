@@ -1,12 +1,12 @@
 apiVersion: mcm.ibm.com/v1alpha1
 kind: Deployable
 metadata:
-  name: nginx
+  name: dp-demoliberty
   labels:
-    app: nginx
+    app: demoliberty
 spec:
   deployer:
     kind: helm
     helm:
-      chartURL: https://github.com/IBM/charts/raw/master/repo/stable/ibm-nginx-dev-1.0.1.tgz
+      chartURL: https://github.com/niklaushirt/charts/blob/master/helm/charts/repo/stable/demoliberty-1.3.0.tgz
       namespace: default

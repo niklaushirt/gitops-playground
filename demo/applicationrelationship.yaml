@@ -1,14 +1,14 @@
 apiVersion: mcm.ibm.com/v1alpha1
 kind: ApplicationRelationship
 metadata:
-  name: nginx
+  name: ar-demoliberty
   labels:
-    app: nginx
+    app: demoliberty
 spec:
   type: contains
   source:
     kind: Application
-    name: nginx
+    name: demoliberty
   destination:
     kind: Deployable
-    name: nginx
+    name: dp-demoliberty

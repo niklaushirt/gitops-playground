@@ -1,9 +1,9 @@
 apiVersion: mcm.ibm.com/v1alpha1
 kind: PlacementPolicy
 metadata:
-  name: nginx
+  name: pp-demoliberty
   labels:
-    app: nginx
+    app: demoliberty
 spec:
   clusterReplicas: 1
   clusterSelector:

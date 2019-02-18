@@ -1,14 +1,14 @@
 apiVersion: mcm.ibm.com/v1alpha1
 kind: PlacementBinding
 metadata:
-  name: nginx
+  name: pb-demoliberty
   labels:
-    app: nginx
+    app: demoliberty
 placementRef:
   apiGroup: mcm.ibm.com
   kind: PlacementPolicy
-  name: nginx
+  name: pp-demoliberty
 subjects:
 - apiGroup: mcm.ibm.com
   kind: Deployable
-  name: nginx
+  name: dp-demoliberty
