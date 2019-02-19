@@ -8,7 +8,7 @@ spec:
   deployer:
     kind: helm
     helm:
-      repository: mydemo
-      chartName: demoliberty
-      version: 1.3.0
+      repository: ibm-charts
+      chartName: ibm-websphere-liberty
+      version: 1.8.0
       namespace: default
