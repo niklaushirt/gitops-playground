@@ -19,3 +19,9 @@ metadata:
 spec:
   url: https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
 ---
+apiVersion: mcm.ibm.com/v1alpha1
+kind: HelmRepo
+metadata:
+  name: argo
+spec:
+  url: https://raw.githubusercontent.com/niklaushirt/gitops-playground/master/charts/

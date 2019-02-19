@@ -1,0 +1,6 @@
+apiVersion: mcm.ibm.com/v1alpha1
+kind: HelmRepo
+metadata:
+  name: argocd
+spec:
+  url: https://raw.githubusercontent.com/niklaushirt/gitops-playground/master/charts/
