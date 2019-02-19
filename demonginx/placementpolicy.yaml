@@ -5,10 +5,10 @@ metadata:
   labels:
     app: demo-nginx
 spec:
-  clusterReplicas: 1
-  clusterSelector:
+  clusterLabels:
     matchLabels:
       region: EU
       environment: Dev
-  resourceHint:
-    type: cpu
+  clusterReplicas: 1
+  resourceHint: {}
+  resourceSelector: {}
