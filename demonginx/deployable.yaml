@@ -8,5 +8,5 @@ spec:
   deployer:
     kind: helm
     helm:
-      chartURL: https://github.com/niklaushirt/charts/blob/master/helm/charts/repo/stable/nginx-3.1.0.tgz
+      chartURL: https://github.com/IBM/charts/raw/master/repo/stable/ibm-nginx-dev-1.0.1.tgz
       namespace: default
