@@ -1,0 +1,12 @@
+apiVersion: mcm.ibm.com/v1alpha1
+kind: Deployable
+metadata:
+  name: demo-nginx
+  labels:
+    app: demo-nginx
+spec:
+  deployer:
+    kind: helm
+    helm:
+      chartURL: https://github.com/niklaushirt/charts/blob/master/helm/charts/repo/stable/nginx-3.1.0.tgz
+      namespace: default

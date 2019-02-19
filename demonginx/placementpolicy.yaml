@@ -1,0 +1,14 @@
+apiVersion: mcm.ibm.com/v1alpha1
+kind: PlacementPolicy
+metadata:
+  name: demo-nginx
+  labels:
+    app: demo-nginx
+spec:
+  clusterReplicas: 1
+  clusterSelector:
+    matchLabels:
+      region: EU
+      environment: Dev
+  resourceHint:
+    type: cpu

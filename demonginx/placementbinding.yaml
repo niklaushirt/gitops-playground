@@ -1,0 +1,14 @@
+apiVersion: mcm.ibm.com/v1alpha1
+kind: PlacementBinding
+metadata:
+  name: demo-nginx
+  labels:
+    app: demo-nginx
+placementRef:
+  apiGroup: mcm.ibm.com
+  kind: PlacementPolicy
+  name: demo-nginx
+subjects:
+- apiGroup: mcm.ibm.com
+  kind: Deployable
+  name: demo-nginx

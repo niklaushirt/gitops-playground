@@ -1,0 +1,15 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: demo-nginx
+  labels:
+    app: demo-nginx
+spec:
+  selector:
+    matchLabels:
+      app: demo-nginx
+  componentKinds:
+  - group: core
+    kind: Service
+  - group: apps
+    kind: Deployment

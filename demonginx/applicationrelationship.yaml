@@ -1,0 +1,14 @@
+apiVersion: mcm.ibm.com/v1alpha1
+kind: ApplicationRelationship
+metadata:
+  name: demo-nginx
+  labels:
+    app: demo-nginx
+spec:
+  type: contains
+  source:
+    kind: Application
+    name: demo-nginx
+  destination:
+    kind: Deployable
+    name: demo-nginx
