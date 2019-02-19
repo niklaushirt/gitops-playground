@@ -9,6 +9,6 @@ spec:
     kind: helm
     helm:
       repository: ibm-charts
-      chartName: ibm-websphere-liberty
-      version: 1.8.0
+      chartName: ibm-open-liberty
+      version: 1.7.0
       namespace: default
