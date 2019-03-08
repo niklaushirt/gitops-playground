@@ -7,8 +7,7 @@ metadata:
 spec:
   clusterLabels:
     matchLabels:
-      region: EU
-      environment: Dev
+      name: iks-eu-west
   clusterReplicas: 1
   resourceHint: {}
   resourceSelector: {}
