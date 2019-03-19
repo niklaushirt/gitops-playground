@@ -7,7 +7,7 @@ metadata:
 spec:
   clusterLabels:
     matchLabels:
-      name: iks-eu-west
+      name: icp-fyre-1
   clusterReplicas: 1
   resourceHint: {}
   resourceSelector: {}
